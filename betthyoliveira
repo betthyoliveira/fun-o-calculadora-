@@ -1,0 +1,19 @@
+  soma = 1
+  subtracao = 2
+  multiplicacao = 3
+  divisao = 4
+  resultado = 0
+
+def calculadora (num1 , num2, operacao):
+
+  if operacao == 1 :
+    resultado = num1 + num2
+  elif operacao == 2:
+    resultado = num1 - num2
+  elif operacao == 3:
+    resultado = num1 * num2
+  elif operacao == 3:
+    resultado = num1 / num2
+  else:
+    resultado = "operação inválida!"
+  return resultado
